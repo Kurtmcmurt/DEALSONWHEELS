@@ -1,0 +1,116 @@
+{
+  "all-vehicles": [
+    {
+      "id": "1",
+      "registration": "we15 0df",
+      "type": "small-car",
+      "make": {
+        "name": "ford",
+        "model": "fiesta"
+      },
+      "fuel": {
+        "type": "petrol"
+      },
+      "available": true,
+      "next_available": null,
+      "current_hire_details": null,
+      "image": {
+        "url": "/",
+        "alt": ""
+      },
+      "next_booked": {
+        "date_start": "2023-10-24T09:00:00Z",
+        "date_end": "2023-10-31T12:00:00Z"
+      }
+    },
+    {
+      "id": "2",
+      "registration": "se16 0df",
+      "type": "estate-car",
+      "make": {
+        "name": "ford",
+        "model": "mondeo"
+      },
+      "fuel": {
+        "type": "petrol"
+      },
+      "available": false,
+      "next_available": {
+        "date": "2023-10-20T09:00:00Z"
+      },
+      "current_hire": {
+        "id": "DOW235923859",
+        "name": "davydd sweeten",
+        "contact_details": {
+          "phone": "012256474675",
+          "email": "sweetencuddly@gmail.com"
+        },
+        "date_end":"2023-10-19T12:00:00Z"
+      },
+      "image": {
+        "url": "/",
+        "alt": ""
+      },
+      "next_booked": {
+        "date_start": "2023-10-24T09:00:00Z",
+        "date_end": "2023-10-28T09:00:00Z"
+      }
+    },
+    {
+      "id": "3",
+      "registration": "sp20 0de",
+      "type": "van",
+      "make": {
+        "name": "ford",
+        "model": "transit"
+      },
+      "fuel": {
+        "type": "diesel"
+      },
+      "available": true,
+      "next_available": null,
+      "current_hire_details": null,
+      "image": {
+        "url": "/",
+        "alt": ""
+      },
+      "next_booked": {
+        "date_start": "2023-10-15T09:00:00Z",
+        "date_end": "2023-10-23T12:00:00Z"
+      }
+    },
+    {
+      "id": "4",
+      "registration": "et23 0de",
+      "type": "estate-car",
+      "make": {
+        "name": "tesla",
+        "model": "model s"
+      },
+      "fuel": {
+        "type": "electric"
+      },
+      "available": false,
+      "next_available": {
+        "date": "2023-10-15T09:00:00Z"
+      },
+      "current_hire_details": {
+        "id": "DOW235923859",
+        "name": "greg james",
+        "contact_details": {
+          "phone": "012256474675",
+          "email": "gjames@gmail.com"
+        },
+        "date_end":"2023-10-14T12:00:00Z"
+      },
+      "image": {
+        "url": "/",
+        "alt": ""
+      },
+      "next_booked": {
+        "date_start": "2023-10-18T09:00:00Z",
+        "date_end": "2023-10-22T12:00:00Z"
+      }
+    }
+  ]
+}
